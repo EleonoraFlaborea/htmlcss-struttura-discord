@@ -95,3 +95,23 @@
     align-self: center;
     align-items: center;
 }
+
+/* Outline-Card*/
+.outline-card{
+    min-height: 700px;
+    background-color: #D3D3D3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.xl-box{
+    background-color: #238B23;
+    width: 100%;
+    min-height: 650px;
+    border: 2px dashed black;
+    align-self: center;
+    align-items: center;
+}
