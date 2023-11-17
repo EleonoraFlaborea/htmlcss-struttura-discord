@@ -10,16 +10,13 @@
 
 /*Utils*/
 
-.main-header{
-    display: flex;
-    flex-direction: row;
-}
-
-
 /* Header*/
 .main-header{
     min-height: 80px;
     background-color: #ADD8E7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .secondary-header{
@@ -36,8 +33,9 @@
     width: 15%;
     min-height: 40px;
     border: 2px dashed black;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    align-self: center;
+    align-items: center;
+
 } 
 
 .link-header{
@@ -45,12 +43,12 @@
 }
 
 .logo-header{
-    margin-left: 200px ;
+    margin-left: 300px ;
 }
 
 .login-header{
-    margin-right: 200px;
-}
+    margin-right: 300px; 
+    }
 
 /* Secondary Header*/
 
@@ -61,8 +59,39 @@
     border: 2px dashed black;
     align-self: center;
     align-items: center;
-    
+}
 
+/* Main*/
+
+.main-card{
+    min-height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+ 
+.secondary-card{
+    background-color: #D3D3D3;
+}
+
+.large-box{
+    background-color: #1F90FF;
+    width: 60%;
+    min-height: 350px;
+    border: 2px dashed black;
+    align-self: center;
+    align-items: center;
     
-    
+}
+
+.small-box{
+    background-color: #FEC0CB;
+    width: 40%;
+    min-height: 350px;
+    border: 2px dashed black;
+    align-self: center;
+    align-items: center;
 }
