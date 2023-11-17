@@ -1,0 +1,23 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Generics*/
+
+/*Utils*/
+
+/*Header*/
+.main-header{
+    min-height: 70px;
+    background-color: #ADD8E7;
+}
+
+.secondary-header{
+    min-height: 400px;
+    background-color: #01008B;
+
+}
