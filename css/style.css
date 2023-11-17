@@ -10,14 +10,42 @@
 
 /*Utils*/
 
+.main-header{
+    display: flex;
+    flex-direction: row;
+}
+
+
 /*Header*/
 .main-header{
-    min-height: 70px;
+    min-height: 80px;
     background-color: #ADD8E7;
 }
 
 .secondary-header{
     min-height: 400px;
     background-color: #01008B;
+}
 
+.related-header{
+    background-color: #DAA51F;
+    width: 15%;
+    height: 40px;
+    border: 2px dashed black;
+    margin-top: 20px;
+    
+
+} 
+
+.link-header{
+    flex-grow: 1;
+    
+}
+
+.logo-header{
+    margin-left: 200px ;
+}
+
+.login-header{
+    margin-right: 200px;
 }
