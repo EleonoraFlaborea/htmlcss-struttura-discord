@@ -113,7 +113,6 @@
     min-height: 550px;
     border: 2px dashed black;
     align-self: center;
-    
 }
 
 /*Footer*/
@@ -126,6 +125,7 @@
     justify-content: center;
     padding-left: 300px;
     padding-right: 300px;
+    margin-bottom: 2px;
 }
 
 .f-contatti{
@@ -134,7 +134,6 @@
     min-height: 350px;
     border: 2px dashed black;
     align-self: center;
-    
 }
 
 .f-card{
@@ -154,3 +153,36 @@
     align-self: center;
     align-items: center;
 }
+
+.secondary-footer{
+    background-color: #23272A;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+
+.f-info{
+    background-color: #7FFED4;
+    width: 100%;
+    align-self: flex-end;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-click{
+    background-color: #FEB6C1;
+}
+
+.f-logo{
+    border: 2px dashed black;
+}
+
+.f-bottone{
+    border: 2px dashed black;
+}
+
