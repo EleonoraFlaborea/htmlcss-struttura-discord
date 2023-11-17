@@ -93,7 +93,7 @@
     min-height: 350px;
     border: 2px dashed black;
     align-self: center;
-    align-items: center;
+    
 }
 
 /* Outline-Card*/
@@ -113,7 +113,7 @@
     min-height: 550px;
     border: 2px dashed black;
     align-self: center;
-    align-items: center;
+    
 }
 
 /*Footer*/
@@ -134,7 +134,7 @@
     min-height: 350px;
     border: 2px dashed black;
     align-self: center;
-    align-items: center;
+    
 }
 
 .f-card{
@@ -142,6 +142,15 @@
     width: 70%;
     min-height: 350px;
     border: 2px dashed black;
+    align-self: center;
+    display: flex;
+   
+}
+
+.f-prodotto{
+    width: 25%;
+    min-height: 350px;
+    border: 2px dashed white;
     align-self: center;
     align-items: center;
 }
